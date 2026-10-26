@@ -1,0 +1,49 @@
+{
+  "purpose": "Execute the English standalone official C verification guide in an isolated directory",
+  "guide": "VERIFY_OFFICIAL.md",
+  "guide_sha256": "a1d2c6f170daf14e1fc61fa7d5eddebce303d636a7a1d070f830e16e640243ff",
+  "python": "3.9.6",
+  "system": "Darwin",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+  "all_shell_blocks_except_alternative_download_executed": true,
+  "executed_sh_block_indices": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "alternate_network_download_executed": false,
+  "official_archive_used": "Existing official CHAMP.zip after checksum validation",
+  "hash_computation": "Unmodified official C source linked with tools/hash_file.c; no Python model used for C digest computation",
+  "source_sha256": {
+    "Reference": "4e0aea74105cc7f519ed89f0c746ec69c37fd7c1833fbfaeb62f71a2b6b1fa9e",
+    "Optimized": "5395ee52a5b9b602caff51b85ebdb7a3b28b979d996f8e2e7942d101e0078420"
+  },
+  "cases": {
+    "short": {
+      "meaningful_bits": 334400,
+      "digest_hex": "571fecc332116f68581aa805285a92c52d57a908eca17d83f5ed59d1629c751137a0dc498f73881e2bdb8533f24a63379b2a75d8cd23ab7aff47e37cb89f7c80",
+      "four_C_outputs_identical": true,
+      "message_sha256_and_distinctness_checked": true
+    },
+    "long": {
+      "meaningful_bits": 427262006,
+      "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+      "four_C_outputs_identical": true,
+      "message_sha256_and_distinctness_checked": true
+    }
+  },
+  "short_first_bit_mutation_control_passed": true,
+  "elapsed_seconds": 15.4335,
+  "all_checks_passed": true
+}

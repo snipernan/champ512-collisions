@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "instance": "CHAMP-512",
+  "prime": "340282366920938463463374607431768196007",
+  "generators": {
+    "0": [
+      [
+        -2,
+        1
+      ],
+      [
+        4,
+        -3
+      ]
+    ],
+    "1": [
+      [
+        -5,
+        2
+      ],
+      [
+        -6,
+        2
+      ]
+    ]
+  },
+  "packing": "MSB first within each byte",
+  "digest_encoding": "Invert nonzero entries modulo p; serialize a,c,b,d as 16-byte little-endian integers, matching the submitted C implementations.",
+  "method": "directed integer lift and scalar lower-shear identity",
+  "decoded_word": "10111011101111101100110101110111011110101010101011100110110110110111011110101111101111011101110111011110110111110101101111101100010110111100111011111111101101001111101101101101010111111011001001101110110110111101101111011111011101101010111010110110011110011111111101111011110011110110101011100110101110101111100011110111001110111010111110111100111100101011110111011101111110001",
+  "j": 71210188,
+  "sign": -1,
+  "lift": 1,
+  "denominator": "552084908677899503626868810117526858734",
+  "scale_exponent": 232,
+  "append_ones": 142420290,
+  "shear_length_bits": 142420668,
+  "bit_length": 427262006,
+  "packed_bytes": 53407751,
+  "unused_low_bits_in_final_byte": 2,
+  "templates": [
+    "s || s || 11 || s",
+    "1 || s || s || s || 1"
+  ],
+  "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+  "messages": [
+    {
+      "file": "long_a.bin",
+      "sha256": "134d03ca44c6507b708edae44765fc17fb6efe2e901244d2bce954fcb1d23b23"
+    },
+    {
+      "file": "long_b.bin",
+      "sha256": "02248d2c3e398c13e65c678f084ed220f88399c9a6ee4abe58d784ced5b3e82e"
+    }
+  ]
+}

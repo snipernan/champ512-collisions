@@ -1,0 +1,138 @@
+{
+  "instance": "CHAMP-512",
+  "prime": "340282366920938463463374607431768196007",
+  "python": "3.9.6",
+  "system": "Darwin",
+  "matrix_checks_passed": true,
+  "official_C_checks_performed": true,
+  "cases": [
+    {
+      "method": "short",
+      "meaningful_bits": 334400,
+      "packed_bytes": 41800,
+      "digest_hex": "571fecc332116f68581aa805285a92c52d57a908eca17d83f5ed59d1629c751137a0dc498f73881e2bdb8533f24a63379b2a75d8cd23ab7aff47e37cb89f7c80",
+      "matrix_original_A_B": [
+        "35132058125734895283304598850673879656",
+        "103202089195813918524569389762959586933",
+        "276659210970321435273562821764002399164",
+        "201957303272165841997685774281399263432"
+      ],
+      "messages": [
+        {
+          "file": "short_a.bin",
+          "sha256": "34bb30a62e04298b5d97cd608840afdb7084b2c0f848a90d4b5ff99a546dd805",
+          "official_checks": {
+            "Reference": {
+              "digest_hex": "571fecc332116f68581aa805285a92c52d57a908eca17d83f5ed59d1629c751137a0dc498f73881e2bdb8533f24a63379b2a75d8cd23ab7aff47e37cb89f7c80",
+              "verification_seconds": 0.006521209000000194
+            },
+            "Optimized": {
+              "digest_hex": "571fecc332116f68581aa805285a92c52d57a908eca17d83f5ed59d1629c751137a0dc498f73881e2bdb8533f24a63379b2a75d8cd23ab7aff47e37cb89f7c80",
+              "verification_seconds": 0.0004991249999997116
+            }
+          }
+        },
+        {
+          "file": "short_b.bin",
+          "sha256": "fd34962528513e9044880943b106b81188ff0526b1c7d7bbbb987505ef42c822",
+          "official_checks": {
+            "Reference": {
+              "digest_hex": "571fecc332116f68581aa805285a92c52d57a908eca17d83f5ed59d1629c751137a0dc498f73881e2bdb8533f24a63379b2a75d8cd23ab7aff47e37cb89f7c80",
+              "verification_seconds": 0.004723915999999662
+            },
+            "Optimized": {
+              "digest_hex": "571fecc332116f68581aa805285a92c52d57a908eca17d83f5ed59d1629c751137a0dc498f73881e2bdb8533f24a63379b2a75d8cd23ab7aff47e37cb89f7c80",
+              "verification_seconds": 0.0004976670000003125
+            }
+          }
+        }
+      ],
+      "first_bit_mutation_control": {
+        "model_passed": true,
+        "official_checks": {
+          "Reference": {
+            "passed": true,
+            "verification_seconds": 0.004541833000000217
+          },
+          "Optimized": {
+            "passed": true,
+            "verification_seconds": 0.0004626249999999388
+          }
+        }
+      },
+      "messages_distinct_within_declared_length": true
+    },
+    {
+      "method": "long",
+      "meaningful_bits": 427262006,
+      "packed_bytes": 53407751,
+      "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+      "matrix_original_A_B": [
+        "93766588262702234487838614330954907362",
+        "240006122338229266616134441411266847948",
+        "140625151440755283058930121544370766815",
+        "133170759528916970063837123797095870736"
+      ],
+      "messages": [
+        {
+          "file": "long_a.bin",
+          "sha256": "134d03ca44c6507b708edae44765fc17fb6efe2e901244d2bce954fcb1d23b23",
+          "official_checks": {
+            "Reference": {
+              "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+              "verification_seconds": 5.902925332999999
+            },
+            "Optimized": {
+              "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+              "verification_seconds": 0.5935402080000003
+            }
+          }
+        },
+        {
+          "file": "long_b.bin",
+          "sha256": "02248d2c3e398c13e65c678f084ed220f88399c9a6ee4abe58d784ced5b3e82e",
+          "official_checks": {
+            "Reference": {
+              "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+              "verification_seconds": 5.766377708
+            },
+            "Optimized": {
+              "digest_hex": "000b22e782f26fc7661ba1f86860ebd5696196f41a938e73aebbf1c1a0b08c6d0abbdc034608630f3328e87a6867851083654aa2e843cae3560dcbed2c4bca93",
+              "verification_seconds": 0.5630758329999992
+            }
+          }
+        }
+      ],
+      "first_bit_mutation_control": {
+        "model_passed": true,
+        "official_checks": {
+          "Reference": {
+            "passed": true,
+            "verification_seconds": 5.809464
+          },
+          "Optimized": {
+            "passed": true,
+            "verification_seconds": 0.5658743340000001
+          }
+        }
+      },
+      "messages_distinct_within_declared_length": true
+    }
+  ],
+  "official_sources": {
+    "archive_sha256": "8953f95618236d8d86191992b10e3580ae74520c28a36a715c2fc8bea2a9e8c1",
+    "sources": {
+      "Reference": {
+        "archive_member": "CHAMP/Implementations and Test_Vectors/API_CryptHash/Implementations/Reference_Implementation/CHAMP-512/CryptHash_AlgorithmInstance.c",
+        "sha256": "4e0aea74105cc7f519ed89f0c746ec69c37fd7c1833fbfaeb62f71a2b6b1fa9e",
+        "header_sha256": "a82dd47d28b531b12d3d5887a2255dae5fba40a6b8f094eb1052eb85657c55bb"
+      },
+      "Optimized": {
+        "archive_member": "CHAMP/Implementations and Test_Vectors/API_CryptHash/Implementations/Optimized_Implementation/CHAMP-512/CryptHash_AlgorithmInstance.c",
+        "sha256": "5395ee52a5b9b602caff51b85ebdb7a3b28b979d996f8e2e7942d101e0078420",
+        "header_sha256": "a82dd47d28b531b12d3d5887a2255dae5fba40a6b8f094eb1052eb85657c55bb"
+      }
+    }
+  },
+  "all_requested_checks_passed": true
+}

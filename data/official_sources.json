@@ -1,0 +1,18 @@
+{
+  "archive_url": "https://www.niccs.org.cn/niccs/Proposal/Cryptographic%20Hash%20Algorithms/Round%201%20candidates/CHAMP.zip",
+  "archive_sha256": "8953f95618236d8d86191992b10e3580ae74520c28a36a715c2fc8bea2a9e8c1",
+  "sources": {
+    "Reference": {
+      "source": "vendor/CHAMP/Implementations and Test_Vectors/API_CryptHash/Implementations/Reference_Implementation/CHAMP-512/CryptHash_AlgorithmInstance.c",
+      "source_sha256": "4e0aea74105cc7f519ed89f0c746ec69c37fd7c1833fbfaeb62f71a2b6b1fa9e",
+      "source_matches_official_archive": true,
+      "fresh_compilation": true
+    },
+    "Optimized": {
+      "source": "vendor/CHAMP/Implementations and Test_Vectors/API_CryptHash/Implementations/Optimized_Implementation/CHAMP-512/CryptHash_AlgorithmInstance.c",
+      "source_sha256": "5395ee52a5b9b602caff51b85ebdb7a3b28b979d996f8e2e7942d101e0078420",
+      "source_matches_official_archive": true,
+      "fresh_compilation": true
+    }
+  }
+}

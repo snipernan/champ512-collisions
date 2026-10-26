@@ -1,0 +1,9 @@
+generated/
+__pycache__/
+*.pyc
+*.so
+*.dylib
+*.dll
+*.dSYM/
+multilist_search
+.DS_Store

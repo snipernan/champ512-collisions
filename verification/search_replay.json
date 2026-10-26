@@ -1,0 +1,67 @@
+{
+  "python": "3.9.6",
+  "system": "Darwin",
+  "purpose": "Reproduce bridge, weighted relation, expanded short collision and saved directed-lift endpoint",
+  "steps": [
+    {
+      "step": "find_bridge",
+      "exit_code": 0,
+      "seconds": 0.2305
+    },
+    {
+      "step": "prepare_weights",
+      "exit_code": 0,
+      "seconds": 0.0476
+    },
+    {
+      "step": "compile_search",
+      "exit_code": 0,
+      "seconds": 1.2964
+    },
+    {
+      "step": "relation_search",
+      "exit_code": 0,
+      "seconds": 7.0743
+    },
+    {
+      "step": "expand_and_check_short",
+      "exit_code": 0,
+      "seconds": 1.1805
+    },
+    {
+      "step": "verify_replayed_short_with_official_C",
+      "exit_code": 0,
+      "seconds": 3.2179
+    },
+    {
+      "step": "replay_directed_lift_endpoint",
+      "exit_code": 0,
+      "seconds": 0.0459
+    }
+  ],
+  "seed": 2026101407,
+  "bridge": {
+    "prime": "340282366920938463463374607431768196007",
+    "rho": "5670903413253385409477775768128925117",
+    "j": 57,
+    "k": 20499,
+    "r": 7,
+    "scale_exponent": 128,
+    "trials": 30325,
+    "bridge_length_bits": 269
+  },
+  "relation": {
+    "status": "relation_found_not_postverified",
+    "groups": 64,
+    "list_bits": 19,
+    "leaf_list_size": 524288,
+    "positions": 1216,
+    "seed": 2026101407,
+    "seconds": 6.19617,
+    "intermediate_pairs": 32517717,
+    "collision_verification_performed": false
+  },
+  "distributed_short_certificate_reproduced_exactly": true,
+  "directed_lift_fields_match": true,
+  "all_checks_passed": true
+}
