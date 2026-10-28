@@ -1,7 +1,6 @@
 {
   "author": "Sunan Wang",
-  "affiliation": "Symmetric Cryptography Laboratory, Shandong University",
-  "email": "sunan.wang@mail.sdu.edu.cn",
+  "affiliation": "OceanWay University",
   "instance": "CHAMP-512",
   "prime": "340282366920938463463374607431768196007",
   "packing": "MSB first within each byte",

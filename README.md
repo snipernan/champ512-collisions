@@ -1,8 +1,7 @@
 # Two full CHAMP-512 collisions
 
 **Sunan Wang**  
-Symmetric Cryptography Laboratory, Shandong University  
-Contact: sunan.wang@mail.sdu.edu.cn
+OceanWay University
 
 This package contains two distinct-message collision pairs for the submitted CHAMP-512 construction at its official prime
 

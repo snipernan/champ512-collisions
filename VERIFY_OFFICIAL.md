@@ -226,5 +226,4 @@ The expected digest for the byte-aligned padded pair is listed in [messages/READ
 - Equal output alone is insufficient: also confirm different meaningful inputs, the exact input length, and the pinned official source archive.
 
 Sunan Wang  
-Symmetric Cryptography Laboratory, Shandong University  
-sunan.wang@mail.sdu.edu.cn
+OceanWay University

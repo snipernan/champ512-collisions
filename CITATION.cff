@@ -5,8 +5,7 @@ title: "Two full CHAMP-512 collisions"
 authors:
   - family-names: Wang
     given-names: Sunan
-    email: sunan.wang@mail.sdu.edu.cn
-    affiliation: "Symmetric Cryptography Laboratory, Shandong University"
+    affiliation: "OceanWay University"
 abstract: >-
   Two explicit equal-length collision pairs for the official CHAMP-512
   parameters, with full digest verification, algebraic certificates,

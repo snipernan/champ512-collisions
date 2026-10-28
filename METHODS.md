@@ -1,8 +1,7 @@
 # Construction of two full CHAMP-512 collisions
 
 Sunan Wang  
-Symmetric Cryptography Laboratory, Shandong University  
-sunan.wang@mail.sdu.edu.cn
+OceanWay University
 
 ## Model and output convention
 
