@@ -1,8 +1,5 @@
 # Two full CHAMP-512 collisions
 
-**Sunan Wang**  
-OceanWay University
-
 This package contains two distinct-message collision pairs for the submitted CHAMP-512 construction at its official prime
 
 `p = 2^128 - 15449 = 340282366920938463463374607431768196007`.

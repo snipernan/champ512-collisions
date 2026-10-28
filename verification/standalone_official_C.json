@@ -48,9 +48,9 @@
   "all_checks_passed": true,
   "documentation_update": {
     "updated_on": "2026-10-28",
-    "current_guide_sha256": "bcf1ae27b7e86fd7b12d83780bfacf5b12db0ecda58e28cabc5c1af32bcf1bcc",
+    "current_guide_sha256": "e31c046464bb2d9af09e4077fb7540e209dbb93197e68901e9a9b4c6a8763031",
     "command_blocks_sha256": "5de88349b8c0a79c3c2479a38f60cac924d12aa193daee7d4282a1fb209ec35a",
     "command_blocks_match_executed_guide": true,
-    "scope": "Author affiliation and contact information only; the original execution record is retained above."
+    "scope": "Documentation signature metadata only; executable command blocks are unchanged and the original execution record is retained above."
   }
 }

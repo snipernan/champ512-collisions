@@ -1,8 +1,5 @@
 # Construction of two full CHAMP-512 collisions
 
-Sunan Wang  
-OceanWay University
-
 ## Model and output convention
 
 All modular identities below use the official prime `p = 2^128 - 15449`. For a bitstring `w`, let `H(w)` be the left-to-right product of the submitted generators

@@ -224,6 +224,3 @@ The expected digest for the byte-aligned padded pair is listed in [messages/READ
 - File-size mismatch: use `334400` for the short files and `427262006` for the long files. Both values are in bits.
 - Unexpected long digest: check the meaningful bit length and file SHA-256 values, then confirm that the source is from the official CHAMP-512 directory.
 - Equal output alone is insufficient: also confirm different meaningful inputs, the exact input length, and the pinned official source archive.
-
-Sunan Wang  
-OceanWay University
